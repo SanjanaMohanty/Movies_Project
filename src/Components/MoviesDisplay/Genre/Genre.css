@@ -1,0 +1,30 @@
+.genre{
+  padding-left: 20px;
+}
+.genre>div:nth-child(2){
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+}
+.genre-movie{
+  border:2px solid gray;
+  box-shadow: 0px 0px 5px gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.genre-movie:hover{
+  transform: scale(1.04);
+  transition:1s;
+  box-shadow: 0 0 10px var(--gray); 
+}
+.genre-movie>div{
+  margin:10px;
+}
+.genre-movie>div:nth-child(1){
+  width:280px;
+  text-align: center;
+  padding:5px;
+}
+.genre-movie>div:nth-child(1)>img{
+  width:100%;
+}
